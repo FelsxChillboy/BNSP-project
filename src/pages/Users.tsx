@@ -97,8 +97,8 @@ const initialUsers: User[] = [
   },
   {
     id: 7,
-    name: "Aisyah Salsabila",
-    email: "aisyah@campusmart.id",
+    name: "azar",
+    email: "azar@campusmart.id",
     role: "Pembeli",
     status: "Aktif",
     createdAt: "07 Nov 2026",

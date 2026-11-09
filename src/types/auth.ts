@@ -1,6 +1,6 @@
 
 // Menentukan role yang tersedia di CampusMart
-export type UserRole = "buyer" | "seller" | "admin";
+export type UserRole = "buyer" | "staff" | "admin";
 
 // Menentukan struktur data pengguna yang sedang login
 export interface AuthUser {
@@ -19,4 +19,5 @@ export interface AuthUser {
   // Identitas kampus tempat pengguna terdaftar
   // null bisa digunakan untuk admin tingkat platform
   campusId: string | null;
+  blocked?: boolean;
 }
